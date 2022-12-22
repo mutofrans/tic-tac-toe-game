@@ -32,6 +32,10 @@ ol, ul {
   width: 34px;
 }
 
+.highlighted {
+  background-color: greenyellow;
+}
+
 .square:focus {
   outline: none;
 }
@@ -47,4 +51,11 @@ ol, ul {
 
 .game-info {
   margin-left: 20px;
+}
+
+.game-options-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 60px;
 }
