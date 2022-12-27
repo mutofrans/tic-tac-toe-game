@@ -50,7 +50,7 @@ export default class Game extends React.Component {
       }],
       xIsNext: true,
       stepNumber: 0,
-      movesOrderAscending: true,
+      movesOrderAscending: this.state.movesOrderAscending,
     })
   }
 
